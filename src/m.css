@@ -1305,6 +1305,7 @@
     height: 5050px;
     max-width: 100%;
     padding: 10px 10px 10px 10px;
+    overflow-y: scroll;
   }
 
   .main__intro {
