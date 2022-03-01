@@ -30,15 +30,16 @@ function SecondPage() {
             <div>
               <div className='main__next__text'>
                 Saro Oil Palm Limited a multi-billion naira project is the single biggest investment
-                decision that<br/> Saroafrica group has taken from inception till date.<br/>
-                The investment in Oil Palm represents our stake and commitment towards achieving the group's<br/> 
+                decision that Saroafrica group has taken from inception till date.
+                The investment in Oil Palm represents our stake and commitment towards achieving the group's
                 strategic objective to transform Saroafrica into a main player in the Agricultural value chain.
               </div>
               <div className='main__next__button'>Learn More</div>  
             </div>
         </div>
         <div className='work'>
-              <img src={palm} />
+              <img src={palm} alt='sample palm fruits'/>
+              <div className='work__cover'></div>
               <div className='work__info'>
                 <div className='work__header'>
                   how it works
@@ -78,20 +79,22 @@ function SecondPage() {
               </div>     
         </div>
         <div className='about'>
-          <div className='about__us'>
-            About us
-          </div>
-          <div className='about__header'>
-            Learn more about<br/><span> Saro Oil Palm</span>
-          </div>
-          <div className='about__text'>
-            Saro Oil Palm, still a project under Saro Africa<br/>
-            International is currently being supervised by the<br/>
-            Saroafrica Board.
-          </div>
-          <div className='about__button'>
-            <div className='about__button__text'>
-              View Our Management Team
+          <div>
+            <div className='about__us'>
+              About us
+            </div>
+            <div className='about__header'>
+              Learn more about<br/><span> Saro Oil Palm</span>
+            </div>
+            <div className='about__text'>
+              Saro Oil Palm, still a project under Saro Africa<br/>
+              International is currently being supervised by the<br/>
+              Saroafrica Board.
+            </div>
+            <div className='about__button'>
+              <div className='about__button__text'>
+                View Our Management Team
+              </div>
             </div>
           </div>
           <div>
@@ -139,8 +142,8 @@ function SecondPage() {
                 <div className='contact__info'>
                     <div className='contact__circle'></div>
                     <h2>“Thank you so much for valuing me as 
-                      a customer,<br/> and coming through for me 
-                      and my family at a<br/> trying time in this world.”
+                      a customer, and coming through for me 
+                      and my family at a trying time in this world.”
                     </h2>
                     <hr/>
                     <div className='contact__circle2'></div>
@@ -150,8 +153,8 @@ function SecondPage() {
                 </div>
                 <div className='contact__info'>
                     <div className='contact__circle'></div>
-                    <h2>“This is by far the simplest, most frictionless,<br/>
-                         easiest-to-get-going platform that I’ve ever applied<br/>
+                    <h2>“This is by far the simplest, most frictionless,
+                         easiest-to-get-going platform that I’ve ever applied
                          on. The check was seamless. ”
                     </h2>
                     <hr/>
@@ -160,16 +163,18 @@ function SecondPage() {
                     <h4>CEO Of Arcane</h4>
                     <div className='star__rating'>{star}{star}{star}{star}{star}</div>
                 </div>
-                <div className='contact__info'>
+                <div className='contact__info__last'>
                     <div className='contact__circle'></div>
                     <h2>“This is by far the simplest, most frictionless,<br/> easiest-to-get-going
                          platform that I’ve ever<br/> applied on. The check was seamless. ”
                     </h2>
                     <hr/>
                     <div className='contact__circle2'></div>
-                    <h3>Nazmi Javier</h3>
-                    <h4>Househusband</h4>
-                    <div className='star__rating'>{star}{star}{star}{star}{star}</div>
+                    
+                      <h3>Nazmi Javier</h3>
+                      <h4>Househusband</h4>
+                      <div className='star__rating'>{star}{star}{star}{star}{star}</div>
+                    
                 </div>             
             </div>
              <div className='contact__end'>
