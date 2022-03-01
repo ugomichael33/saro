@@ -663,8 +663,9 @@
     display: flex;
     flex-direction: column;
     height: 4200px;
-    width: 100%;
+    max-width: 100%;
     padding: 10px;
+    width: 0 auto;
   }
 
   .main__intro {
@@ -674,8 +675,8 @@
   }
 
   .main__intro > img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-left: 64px;
     margin-top: 20px;
   }
@@ -686,20 +687,20 @@
   }
 
   .work {
-    height: 440px;
+    height: 450px;
     width: 100%;
     background-color: #ffffff;
   }
 
   .work > img {
-    width: 500px;
+    width: 650px;
     height: 350px;
   }
 
   .work__info {
-    width: 300px;
+    width: 350px;
     height: 350px;
-    margin-left: 240px;
+    margin-left: 320px;
     margin-top: -400px;
   }
 
@@ -766,12 +767,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 750px;
+    height: 800px;
     background-color: #f4f4f4;
   }
 
   .about__us {
-    margin-left: 270px;
+    margin-left: 50px;
     margin-top: 80px;
     font-family: Open Sans;
     font-size: 16px;
@@ -780,7 +781,7 @@
   }
 
   .about__header {
-    margin-left: 220px;
+    margin-left: 50px;
     margin-top: 10px;
     font-family: PT Serif;
     font-weight: bold;
@@ -793,12 +794,11 @@
 
   .about__header > span {
     color: #275a53;
-    margin-left: 30px;
   }
 
   .about__text {
-    margin-left: 180px;
-    margin-top: 5px;
+    margin-left: 380px;
+    margin-top: -100px;
     font-family: Open Sans;
     font-size: 16px;
     line-height: 180%;
@@ -809,15 +809,15 @@
     justify-content: center;
     align-items: center;
     padding: 18px 40px;
-    width: 305px;
+    width: 285px;
     height: 58px;
-    margin-left: 180px;
-    margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 45px;
     background: #e2963c;
   }
 
   .about__button__text {
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 3px;
     font-family: Open Sans;
     font-weight: 600;
@@ -828,43 +828,43 @@
 
   .about__headquaters > img {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .about__boss > img {
     position: absolute;
-    width: 200px;
-    height: 300px;
-    margin-left: 370px;
-    margin-top: 40px;
+    width: 230px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: 70px;
   }
 
   .capabilities {
-    height: 550px;
+    height: 650px;
     background-color: rgba(39, 90, 83, 0.8);
   }
 
   .capabilities__points {
     margin-top: 50px;
     margin-left: 135px;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     background-color: #868d58;
     display: inline-block;
   }
 
   .capabilities__points > span {
-    margin-left: 12px;
+    margin-left: 32px;
     top: 6.82%;
     bottom: 56.82%;
     font-family: Poppins;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 76px;
+    font-size: 80px;
+    line-height: 126px;
     color: #e2963c;
   }
 
@@ -906,7 +906,7 @@
   }
 
   .contact {
-    height: 780px;
+    height: 1880px;
     background-color: #f4f4f4;
   }
 
@@ -922,7 +922,7 @@
   }
 
   .star__rating {
-    position: none;
+    margin-left: 10px;
   }
 
   .contact > h2 {
@@ -946,9 +946,9 @@
   }
 
   .contact__info {
-    width: 300px;
+    width: 355px;
     height: 220px;
-    margin-left: 20px;
+    margin-left: 0px;
     top: 381px;
     background: #ffffff;
     border: 1px solid #f2f2f2;
@@ -1014,7 +1014,7 @@
   }
 
   .contact__info__last {
-    width: 300px;
+    width: 360px;
     height: 220px;
     margin-left: -500px;
     margin-top: 281px;
@@ -1058,7 +1058,7 @@
   }
 
   .contact__last > h1 {
-    margin-left: 270px;
+    margin-left: 50px;
     margin-top: 40px;
     font-family: Open Sans;
     font-weight: bold;
@@ -1068,8 +1068,9 @@
   }
 
   .contact__last > h3 {
-    margin-left: 200px;
-    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     font-family: Open Sans;
     font-size: 16px;
     line-height: 160%;
@@ -1191,14 +1192,14 @@
   }
 
   .main__intro__title {
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 30px;
     text-transform: capitalize;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 100px;
+    font-size: 50px;
+    line-height: 130px;
     text-align: center;
     letter-spacing: -0.5px;
 
@@ -1232,8 +1233,8 @@
   }
 
   .main__next__head {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -1248,11 +1249,11 @@
   }
 
   .main__next__text {
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 30px;
     font-family: Open Sans;
     font-size: 16px;
-    line-height: 130%;
+    line-height: 150%;
   }
 
   .main__next__button {
@@ -1263,15 +1264,15 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 11px;
-    padding-top: 8px;
+    padding-top: 16px;
   }
 
   .main__next__button {
-    width: 105px;
-    height: 35px;
+    width: 125px;
+    height: 45px;
     background-color: #e2963c;
     margin-left: 150px;
-    margin-top: 5px;
+    margin-top: 25px;
   }
 
   .facebook {
@@ -1303,6 +1304,7 @@
     display: flex;
     flex-direction: column;
     height: 5050px;
+
     max-width: 100%;
     padding: 10px 10px 10px 10px;
     overflow-y: scroll;
